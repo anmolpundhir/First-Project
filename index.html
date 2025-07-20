@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bucket List Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Bucket List</h1>
+            <div class="dark-toggle-row">
+                <button id="dark-toggle" title="Toggle dark mode">🌙</button>
+            </div>
+            <div id="quote"></div>
+            <div id="count"></div>
+            <div id="progress-bar"><div id="progress-bar-inner"></div></div>
+        </header>
+        <section class="add-item">
+            <input type="text" id="item-input" placeholder="Add a new item...">
+            <input type="date" id="due-date-input" title="Due date (optional)">
+            <button id="add-btn" title="Add Item">+</button>
+        </section>
+        <nav id="filter-bar">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="active">Active</button>
+            <button class="filter-btn" data-filter="completed">Completed</button>
+        </nav>
+        <main>
+            <ul id="bucket-list"></ul>
+            <h2>Completed</h2>
+            <ul id="completed-list"></ul>
+            <button id="clear-completed">Clear All Completed</button>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
