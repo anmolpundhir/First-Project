@@ -26,6 +26,7 @@ const QUOTES = [
     "Life is short. Make it count.",
     "Collect moments, not things.",
     "Every accomplishment starts with the decision to try."
+    "Believe in yourself."
 ];
 
 function showRandomQuote() {
