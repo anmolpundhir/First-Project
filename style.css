@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: 'Segoe UI', Arial, sans-serif;
     background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
-    color: #222;
+    color: #223;
     min-height: 100vh;
     transition: background 0.5s;
 }
